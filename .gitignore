@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ResearchForge private/local files
+.env
+researchforge_env/
+.venv/
+venv/
+__pycache__/
+*.pyc
