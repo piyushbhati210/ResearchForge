@@ -1,0 +1,15 @@
+pdfplumber
+langchain
+langchain-community
+langchain-core
+langchain-groq
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+groq
+streamlit
+ragas
+pandas
+datasets
+python-dotenv
+tiktoken
