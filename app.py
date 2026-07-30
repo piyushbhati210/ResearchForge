@@ -2,9 +2,6 @@
 # ResearchForge | Piyush Bhati | SIG 2025-26
 # ============================================================
 import os
-os.environ["TRANSFORMERS_OFFLINE"]  = "1"
-os.environ["HF_DATASETS_OFFLINE"]   = "1"
-os.environ["HF_HUB_OFFLINE"]        = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from sentence_transformers import SentenceTransformer as _ST
