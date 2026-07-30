@@ -19,7 +19,7 @@ import pickle
 import os
 
 
-# ── FUNCTION 1: Load SBERT model ─────────────────────────
+# ── FUNCTION 1: local_files_only=Trueoad SBERT model ─────────────────────────
 def load_embedding_model():
     """
     Loads Sentence-BERT all-MiniLM-L6-v2.
@@ -39,7 +39,7 @@ def load_embedding_model():
     print("Loading SBERT embedding model...")
     model = SentenceTransformer(
         'all-MiniLM-L6-v2',
-        local_files_only=True
+        local_files_only=False
     )
     print("Model loaded successfully!")
     print(f"Embedding dimension: {model.get_embedding_dimension()}")
