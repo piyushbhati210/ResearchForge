@@ -593,8 +593,7 @@ if go_btn and question:
                 )
             st.markdown('<div class="sh">Answer</div>',
                         unsafe_allow_html=True)
-            st.markdown(f'<div class="abox-g">{r["answer"]}</div>',
-                        unsafe_allow_html=True)
+            st.markdown(r["answer"])
             st.download_button("↓ Export + Citations",
                 f"Q: {question}\n\nA: {r['answer']}\n\n"
                 f"Citations:\n" + "\n".join(r['citations']),
@@ -653,8 +652,7 @@ if go_btn and question:
                 )
             st.markdown('<div class="sh">Methodology</div>',
                         unsafe_allow_html=True)
-            st.markdown(f'<div class="abox-g">{r["answer"]}</div>',
-                        unsafe_allow_html=True)
+            st.markdown(r["answer"])
             st.download_button("↓ Export methodology",
                 f"METHODOLOGY\nTopic: {question}\n\n"
                 f"{r['answer']}\n\nSources: "
