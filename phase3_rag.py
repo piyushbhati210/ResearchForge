@@ -105,13 +105,14 @@ def generate_answer(question, context_chunks, client,
     prompt = build_prompt(question, context_chunks,
                           uploaded_sources)
     response = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model="openai/gpt-oss-20b",
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=250,
-        temperature=0.1
+        max_completion_tokens=1024,
+        temperature=0.6,
+        reasoning_effort="low",
+        include_reasoning=False
     )
     return response.choices[0].message.content.strip()
-
 
 # ── FUNCTION 4: Search uploaded chunks first ─────────────
 def search_uploaded_first(question, model,
