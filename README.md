@@ -1,13 +1,13 @@
 # ResearchForge — Agentic AI Research Assistant
 
-An **Agentic AI research assistant** for exploring academic literature using
-**Retrieval-Augmented Generation (RAG), semantic search, SBERT embeddings,
-FAISS, LangChain, and LLMs**.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://researchforge-research-ai.streamlit.app/)
 
-ResearchForge combines a conventional **Simple RAG** pipeline with a custom
-**ReAct-inspired multi-step retrieval workflow** for research-oriented
-question answering, research-gap identification, methodology extraction,
-and cross-paper comparison.
+🔗 **[Live Demo](https://researchforge-research-ai.streamlit.app/)**  
+💻 **[GitHub Repository](https://github.com/piyushbhati210/ResearchForge)**
+
+An **Agentic AI research assistant** for exploring academic literature using **Retrieval-Augmented Generation (RAG), semantic search, SBERT embeddings, FAISS, LangChain, and LLMs**.
+
+ResearchForge combines a conventional **Simple RAG** pipeline with a custom **ReAct-inspired multi-step retrieval workflow** for research-oriented question answering, research-gap identification, methodology extraction, and cross-paper comparison.
 
 > **Project type:** Academic research prototype for MSc Data Science & Spatial Analytics.
 
